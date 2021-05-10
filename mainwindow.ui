@@ -61,7 +61,23 @@
           <item>
            <layout class="QHBoxLayout" name="horizontalLayout_3">
             <item>
-             <widget class="QSpinBox" name="spinBox_2"/>
+             <widget class="QComboBox" name="comboBox">
+              <item>
+               <property name="text">
+                <string>悲伤</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>自豪</string>
+               </property>
+              </item>
+              <item>
+               <property name="text">
+                <string>水军</string>
+               </property>
+              </item>
+             </widget>
             </item>
             <item>
              <widget class="QPushButton" name="pushButton_2">
