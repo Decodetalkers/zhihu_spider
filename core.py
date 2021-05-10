@@ -10,7 +10,7 @@ from selenium.webdriver.common.by import By
 from scrapy.selector import Selector
 
 
-def get_message(url: str, times: int):
+def get_message(url: str, times: int, wordsa: str, wordsb: str, wordsc: str, wordsd: str):
     '''
     headers = {
         'User-Agent':
@@ -78,10 +78,10 @@ def get_message(url: str, times: int):
                 ).replace(
                 '</p>', ''
                 )
-        if ("阴阳怪气" in PAGE) or ("黑" in PAGE) or ("全场景" in PAGE) or ("分布式" in PAGE):
+        if (wordsa in PAGE) or (wordsb in PAGE) or (wordsc in PAGE) or (wordsd in PAGE):
             COUT = COUT + 1
             # print(PAGE+'\n')
-            content.append(PAGE+'\n')
+            content.append(PAGE+'\n\n')
     print("test")
     # print(str(COUT)+":"+str(len(pages)))
     return (content, str(COUT)+":"+str(len(pages)))

@@ -18,7 +18,7 @@
     <item row="0" column="0">
      <widget class="QTabWidget" name="tabWidget">
       <property name="currentIndex">
-       <number>1</number>
+       <number>0</number>
       </property>
       <widget class="QWidget" name="tab">
        <attribute name="title">
@@ -44,8 +44,31 @@
             </item>
            </layout>
           </item>
-          <item row="1" column="0">
+          <item row="2" column="0">
            <widget class="QTextEdit" name="textEdit"/>
+          </item>
+          <item row="1" column="0">
+           <layout class="QHBoxLayout" name="horizontalLayout_4">
+            <item>
+             <widget class="QLabel" name="label">
+              <property name="text">
+               <string>关键词</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="wordsA"/>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="wordsB"/>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="wordsC"/>
+            </item>
+            <item>
+             <widget class="QLineEdit" name="wordsD"/>
+            </item>
+           </layout>
           </item>
          </layout>
         </item>
@@ -56,6 +79,9 @@
         <string>分析</string>
        </attribute>
        <layout class="QGridLayout" name="gridLayout_3">
+        <item row="1" column="0">
+         <widget class="QTextEdit" name="textEdit_2"/>
+        </item>
         <item row="0" column="0">
          <layout class="QVBoxLayout" name="verticalLayout">
           <item>
@@ -95,9 +121,6 @@
            </layout>
           </item>
          </layout>
-        </item>
-        <item row="1" column="0">
-         <widget class="QTextEdit" name="textEdit_2"/>
         </item>
        </layout>
       </widget>

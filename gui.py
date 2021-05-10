@@ -37,7 +37,7 @@ class Zhihu(QMainWindow):
             zhihu_question = self.ui.lineEdit.text()
             if zhihu_question == "":
                 return
-            answer = core.get_message(zhihu_question, self.ui.spinBox.value())
+            answer = core.get_message(zhihu_question, self.ui.spinBox.value(), self.ui.wordsA.text(), self.ui.wordsB.text(), self.ui.wordsC.text(), self.ui.wordsD.text())
             self.ui.textEdit_2.setText(answer[1])
             for message in answer[0]:
                 self.ui.textEdit.append(message)
