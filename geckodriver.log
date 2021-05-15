@@ -4685,3 +4685,41 @@ JavaScript warning: https://static.zhihu.com/heifetz/main.zswsdid.389c11fe7aa7ad
 JavaScript warning: https://static.zhihu.com/heifetz/main.zswsdid.389c11fe7aa7ad21a6b1.js, line 1: WebGL context was lost.
 1620655961334	Marionette	INFO	Stopped listening on port 41469
 1620655972292	Marionette	INFO	Stopped listening on port 46115
+1621071245057	geckodriver	INFO	Listening on 127.0.0.1:44061
+1621071246113	mozrunner::runner	INFO	Running command: "/home/cht/.local/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileKXZlTS"
+
+(firefox:653): GLib-GObject-CRITICAL **: 17:34:06.276: g_value_set_boxed: assertion 'G_VALUE_HOLDS_BOXED (value)' failed
+1621071247756	Marionette	INFO	Marionette enabled
+
+(/home/cht/firefox/firefox-bin:704): GLib-GObject-CRITICAL **: 17:34:08.346: g_value_set_boxed: assertion 'G_VALUE_HOLDS_BOXED (value)' failed
+
+(/home/cht/firefox/firefox-bin:725): GLib-GObject-CRITICAL **: 17:34:08.615: g_value_set_boxed: assertion 'G_VALUE_HOLDS_BOXED (value)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/home/cht/firefox/firefox-bin:778): GLib-GObject-CRITICAL **: 17:34:10.026: g_value_set_boxed: assertion 'G_VALUE_HOLDS_BOXED (value)' failed
+1621071251847	Marionette	INFO	Listening on port 40173
+1621071251959	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.zhihu.com/heifetz/main.zswsdid.a9878d5d12f7bacfd5a0.js, line 1: WebGL context was lost.
+JavaScript warning: https://static.zhihu.com/heifetz/main.zswsdid.a9878d5d12f7bacfd5a0.js, line 1: WebGL context was lost.
+JavaScript warning: https://static.zhihu.com/heifetz/main.zswsdid.a9878d5d12f7bacfd5a0.js, line 1: WebGL context was lost.
+JavaScript warning: https://static.zhihu.com/heifetz/main.zswsdid.a9878d5d12f7bacfd5a0.js, line 1: WebGL context was lost.
+1621071267454	geckodriver	INFO	Listening on 127.0.0.1:54841
+1621071267459	mozrunner::runner	INFO	Running command: "/home/cht/.local/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileMw37la"
+
+(firefox:836): GLib-GObject-CRITICAL **: 17:34:27.614: g_value_set_boxed: assertion 'G_VALUE_HOLDS_BOXED (value)' failed
+1621071268149	Marionette	INFO	Marionette enabled
+
+(/home/cht/firefox/firefox-bin:886): GLib-GObject-CRITICAL **: 17:34:28.702: g_value_set_boxed: assertion 'G_VALUE_HOLDS_BOXED (value)' failed
+
+(/home/cht/firefox/firefox-bin:904): GLib-GObject-CRITICAL **: 17:34:28.858: g_value_set_boxed: assertion 'G_VALUE_HOLDS_BOXED (value)' failed
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(/home/cht/firefox/firefox-bin:957): GLib-GObject-CRITICAL **: 17:34:30.113: g_value_set_boxed: assertion 'G_VALUE_HOLDS_BOXED (value)' failed
+1621071271595	Marionette	INFO	Listening on port 33355
+1621071271746	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static.zhihu.com/heifetz/main.zswsdid.a9878d5d12f7bacfd5a0.js, line 1: WebGL context was lost.
+JavaScript warning: https://static.zhihu.com/heifetz/main.zswsdid.a9878d5d12f7bacfd5a0.js, line 1: WebGL context was lost.
+JavaScript warning: https://static.zhihu.com/heifetz/main.zswsdid.a9878d5d12f7bacfd5a0.js, line 1: WebGL context was lost.
+JavaScript warning: https://static.zhihu.com/heifetz/main.zswsdid.a9878d5d12f7bacfd5a0.js, line 1: WebGL context was lost.
+1621075336090	Marionette	INFO	Stopped listening on port 40173
+1621075804583	Marionette	INFO	Stopped listening on port 33355
